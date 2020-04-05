@@ -10,28 +10,36 @@ def create_book_instance():
 def scrap_book(book_to_add):
     url = f'https://www.googleapis.com/books/v1/volumes?q={book_to_add}'
     response = requests.get(url).json()
+    with open('json_output.json', 'w') as json_file:
+        json.dump(response, json_file, indent = 4, ensure_ascii = False)
     resource = response['items'][0]['volumeInfo']
     try: 
         author = ', '.join(resource['authors'])
+        genre = ', '.join(resource['categories'])
+        book_summary = resource['description']
     except:
         author = 'Not Found'
-    try: 
-        genre = ', '.join(resource['categories'])
-    except:
         genre = 'Not Found'
-    return author, genre
+        book_summary = 'Not Found'
+    return author, genre, book_summary
 
-def link_to_class_book(book_instance, name, author, genre):
+def link_to_class_book(book_instance, name, author, genre, description):
     book_instance.name = name
     book_instance.author = author
     book_instance.genre = genre
+    book_instance.description = description
 
-def add_to_html(name, author, genre):
+def add_to_html(name, author, genre, description):
     with open('book_library.html') as html_file_to_read:
         soup = BeautifulSoup(html_file_to_read, 'html.parser')
-        new_div = soup.new_tag('div')
-        new_div.string = 'Book: %s\n / Author: %s\n / Genre: %s' % (name, author, genre)
-        soup.body.insert(0, new_div)
+        new_book_description = soup.new_tag('div')
+        new_book_description.string = 'Description: %s' % description
+        soup.body.insert(0, new_book_description) 
+        new_book_div = soup.new_tag('div')
+        new_book_div.string = 'Book: %s\n | Author: %s\n | Genre: %s' % (name, author, genre)
+        soup.body.insert(0, new_book_div) 
+        new_break = soup.new_tag('br')
+        soup.body.insert(0, new_break)      
     with open('book_library.html', 'w') as html_file_to_write:
         html_file_to_write.write(str(soup))
 
@@ -41,10 +49,11 @@ def nice_printing():
     print('Name: ', book_instance.name)
     print('Author: ', book_instance.author)
     print('Genre: ', book_instance.genre)
+    print('Book Summary: ', book_instance.description)
     print('---------------------')
 
 if __name__ == '__main__':
     book_instance = create_book_instance()
     link_to_class_book(book_instance, argv[1], *scrap_book(argv[1]))
     nice_printing()
-    add_to_html(book_instance.name, book_instance.author, book_instance.genre )
+    add_to_html(book_instance.name, book_instance.author, book_instance.genre, book_instance.description)

@@ -1,0 +1,757 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1244,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "3txi3YItH7cC",
+            "etag": "aN2pCtB0mRc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/3txi3YItH7cC",
+            "volumeInfo": {
+                "title": "La vie devant soi",
+                "authors": [
+                    "Romain Gary",
+                    "Émile Ajar"
+                ],
+                "publisher": "Le Mercure de France",
+                "publishedDate": "2013-04-12T00:00:00+02:00",
+                "description": "La vie devant soi raconte l’histoire, dans le quartier de Belleville, à Paris, d’un petit garçon arabe orphelin, Momo, et d’une dame juive, âgée, malade, Madame Rosa, qui garde dans son appartement des enfants dont les mères travaillent ou ont disparu.Dès la publication du livre d’Émile Ajar, Momo et Madame Rosa sont devenus célèbres, presque des personnages publics, et le roman a été aussitôt traduit dans une multitude de pays.C’est que ce roman, qui provoque constamment le rire et les larmes, porte en lui toutes les questions, tous les drames et tous les rêves du monde d’aujourd’hui.Lorsqu’à la fin du livre la police enfonce la porte de la cave où le petit Momo veille le corps de Madame Rosa qu’il n’a pas voulu laisser conduire à l’hôpital, ces deux protagonistes d’un immense amour atteignent une fois pour toute la dimension de Légende, parce que face aux oppressions et aux injustices ils ont lutté jusqu’au bout, par la lumière et l’intelligence et par la force du cœur.La vie devant soi a reçu le prix Goncourt en 1975.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782715233324"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2715233329"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 203,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.0,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.22.21.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=3txi3YItH7cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=3txi3YItH7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=3txi3YItH7cC&printsec=frontcover&dq=La+Vie+Devant+Soi&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=3txi3YItH7cC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3txi3YItH7cC"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=3txi3YItH7cC&rdid=book-3txi3YItH7cC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.fr/books/download/La_vie_devant_soi-sample-epub.acsm?id=3txi3YItH7cC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.fr/books/download/La_vie_devant_soi-sample-pdf.acsm?id=3txi3YItH7cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=3txi3YItH7cC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Signé Ajar, ce roman reçut le prix Goncourt en 1975."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "saOWDwAAQBAJ",
+            "etag": "aS4sDfIu4Pw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/saOWDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Fiche de lecture La Vie devant soi (résumé détaillé et analyse littéraire de référence)",
+                "authors": [
+                    "Romain Gary"
+                ],
+                "publisher": "Les Éditions de l'Ebook malin",
+                "publishedDate": "2019-05-07",
+                "description": "La collection « Connaître une œuvre » vous offre la possibilité de tout savoir de La Vie devant soi de Romain Gary grâce à une fiche de lecture aussi complète que détaillée. La rédaction, claire et accessible, a été confiée à un spécialiste universitaire. Notre travail éditorial vous offre un grand confort de lecture, spécialement développé pour la lecture numérique. Cette fiche de lecture répond à une charte qualité mise en place par une équipe d’enseignants. Ce livre numérique contient : - Un sommaire dynamique - La biographie de Romain Gary - La présentation de l’œuvre - Le résumé détaillé (chapitre par chapitre) - Les raisons du succès - Les thèmes principaux - L'étude du mouvement littéraire de l’auteur",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=saOWDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=saOWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=saOWDwAAQBAJ&printsec=frontcover&dq=La+Vie+Devant+Soi&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=saOWDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=saOWDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 3.49,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=saOWDwAAQBAJ&rdid=book-saOWDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3490000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3490000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=saOWDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "La collection « Connaître une œuvre » vous offre la possibilité de tout savoir de La Vie devant soi de Romain Gary grâce à une fiche de lecture aussi complète que détaillée."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7KynCwAAQBAJ",
+            "etag": "gGU6hHZjAoQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7KynCwAAQBAJ",
+            "volumeInfo": {
+                "title": "La Vie devant soi de Romain Gary (Analyse approfondie)",
+                "subtitle": "Approfondissez votre lecture des romans classiques et modernes avec Profil-Litteraire.fr",
+                "authors": [
+                    "Karolin Brohee"
+                ],
+                "publisher": "Profil littéraire",
+                "publishedDate": "2016-02-29",
+                "description": "Œuvre emblématique de Romain Gary qui s’est longtemps caché derrière le mystérieux Émile Ajar, La Vie devant soi raconte l’histoire de Momo, un jeune garçon musulman, qui s’est choisi comme mère adoptive Madame Rosa, une vielle dame juive. À travers les mots de ce jeune garçon, l’on découvre leur quotidien dans cet immeuble où Madame Rosa s’occupe des enfants des prostituées. Mais aussi et surtout la tendresse entre une vieille dame qui se meurt et un jeune garçon qui a la vie devant lui... Avant de résumer l’histoire de Momo et de Madame Rosa, Karolin Brohee nous raconte la vie de Romain Gary. Car, sans elle, il est difficile de comprendre toute la profondeur de l’œuvre de cet artiste insaisissable. C’est que Romain Gary déteste par-dessus tout être catalogué dans des cases bien souvent trop étroites pour son génie. Lui qui se plaît à se réinventer à chaque instant. C’est à l’aune de cette personnalité multiple qu’il faut lire La Vie devant soi et qu’il faut décrypter ses personnages ô combien attachants. Car derrière Momo, c’est bien Roman Kacew qui se cache, et derrière Madame Rosa, Romain Gary l’adulte. À travers des thématiques aussi fortes que la recherche identitaire et la solitude, l’on sent toutes les angoisses de l’auteur, celles qui le hantent depuis l’enfance.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782806266057"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "280626605X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 48,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Collections"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.0.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7KynCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7KynCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=7KynCwAAQBAJ&printsec=frontcover&dq=La+Vie+Devant+Soi&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=7KynCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7KynCwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 6.99,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 6.99,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=7KynCwAAQBAJ&rdid=book-7KynCwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 6990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 6990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=7KynCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Mais aussi et surtout la tendresse entre une vieille dame qui se meurt et un jeune garçon qui a la vie devant lui... Avant de résumer l’histoire de Momo et de Madame Rosa, Karolin Brohee nous raconte la vie de Romain Gary."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "1PwuE7rx4NsC",
+            "etag": "CJDL8pmoVzk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/1PwuE7rx4NsC",
+            "volumeInfo": {
+                "title": "La Vie devant soi de Romain Gary (Fiche de lecture)",
+                "subtitle": "Résumé complet et analyse détaillée de l'oeuvre",
+                "authors": [
+                    "lePetitLittéraire,",
+                    "Amélie Dewez"
+                ],
+                "publisher": "Primento",
+                "publishedDate": "2011-01-01",
+                "description": "Décryptez La Vie devant soi de Romain Gary (Émile Ajar) avec l’analyse du PetitLitteraire.fr ! Que faut-il retenir de La Vie devant soi, un des romans les plus émouvants de la littérature française moderne ? Retrouvez tout ce que vous devez savoir sur cette œuvre dans une fiche de lecture complète et détaillée. Vous trouverez notamment dans cette fiche : • Un résumé complet • Une présentation des personnages principaux tels que Momo, Madame Rosa et Monsieur Hamil • Une analyse des spécificités de l’œuvre : un roman construit autour de la \"langue de Momo\", un roman des origines et du devenir, et un roman d'émancipation Une analyse de référence pour comprendre rapidement le sens de l’œuvre. LE MOT DE L’ÉDITEUR : « Dans cette nouvelle édition de notre analyse de La Vie devant soi (2014), avec Amélie Dewez, nous fournissons des pistes pour décoder ce célèbre roman à l'univers drôle et triste. Notre analyse permet de faire rapidement le tour de l’œuvre et d’aller au-delà des clichés. » Stéphanie FELTEN À propos de la collection LePetitLitteraire.fr : Plébiscité tant par les passionnés de littérature que par les lycéens, LePetitLittéraire.fr est considéré comme une référence en matière d’analyse d’œuvres classiques et contemporaines. Nos analyses, disponibles au format papier et numérique, ont été conçues pour guider les lecteurs à travers la littérature. Nos auteurs combinent théories, citations, anecdotes et commentaires pour vous faire découvrir et redécouvrir les plus grandes œuvres littéraires. LePetitLittéraire.fr est reconnu d’intérêt pédagogique par le ministère de l’Éducation.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782806218025"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2806218020"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 26,
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "5.15.13.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=1PwuE7rx4NsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=1PwuE7rx4NsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=1PwuE7rx4NsC&pg=PA4&dq=La+Vie+Devant+Soi&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=1PwuE7rx4NsC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1PwuE7rx4NsC"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 4.99,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=1PwuE7rx4NsC&rdid=book-1PwuE7rx4NsC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 4990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 4990000.0,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=1PwuE7rx4NsC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Né en 1914 en Lituanie • Décédé en 1980 à Paris • Quelques-unes de ses <br>\nœuvres : Les Racines du ciel (1956), roman La Promesse de l&#39;aube (1960), <br>\nroman <b>La Vie devant soi</b> (1975), roman Romain Gary (né Romain Kacew, et <br>\négalement&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "z0khzQEACAAJ",
+            "etag": "Vj7A70EPNnc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/z0khzQEACAAJ",
+            "volumeInfo": {
+                "title": "Education européenne et La Vie devant soi de Romain Gary - Emile Ajar",
+                "publishedDate": "2001",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OCLC:690426892"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 170,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "language": "en",
+                "previewLink": "http://books.google.fr/books?id=z0khzQEACAAJ&dq=La+Vie+Devant+Soi&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=z0khzQEACAAJ&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Education_europ%C3%A9enne_et_La_Vie_devant_s.html?hl=&id=z0khzQEACAAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=z0khzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "V9LsyAEACAAJ",
+            "etag": "Nts2e09H4io",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/V9LsyAEACAAJ",
+            "volumeInfo": {
+                "title": "La Vie devant soi",
+                "subtitle": "roman",
+                "authors": [
+                    "Romain Gary"
+                ],
+                "publishedDate": "1976",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015002168287"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 269,
+                "printType": "BOOK",
+                "categories": [
+                    "Foreign Language Study"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.0",
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=V9LsyAEACAAJ&dq=La+Vie+Devant+Soi&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=V9LsyAEACAAJ&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/La_Vie_devant_soi.html?hl=&id=V9LsyAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=V9LsyAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "1JqQV8xRC8cC",
+            "etag": "ra0htEbFbSI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/1JqQV8xRC8cC",
+            "volumeInfo": {
+                "title": "La Vie devant soi (résumé de l'oeuvre)",
+                "authors": [
+                    "Fichebook",
+                    "Romain Gary"
+                ],
+                "publisher": "Les Éditions Numeriklivres",
+                "publishedDate": "2012-05-28",
+                "description": "FICHE DE LECTURE COMPRENANT : Présentation de l'oeuvre Résumé de l'oeuvre Au début de la Première Guerre Mondiale, en 1914, Romain Kacew voit le jour à Vilnius en Lituanie. Ne sachant qui est son père, il s’imagine qu’il est le fils d’une célébrité russe plutôt que de croire qu’il est le fruit d’une coucherie d’un soir...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782897172497"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2897172495"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 14,
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.29.25.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=1JqQV8xRC8cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=1JqQV8xRC8cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=1JqQV8xRC8cC&dq=La+Vie+Devant+Soi&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=1JqQV8xRC8cC&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/La_Vie_devant_soi_r%C3%A9sum%C3%A9_de_l_oeuvre.html?hl=&id=1JqQV8xRC8cC"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=1JqQV8xRC8cC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "FICHE DE LECTURE COMPRENANT : Présentation de l&#39;oeuvre Résumé de l&#39;oeuvre Au début de la Première Guerre Mondiale, en 1914, Romain Kacew voit le jour à Vilnius en Lituanie."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kQA9vQEACAAJ",
+            "etag": "HY5ENBGVqw8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kQA9vQEACAAJ",
+            "volumeInfo": {
+                "title": "La Vie devant soi de Romain Gary (fiche de lecture et analyse complète de l'oeuvre)",
+                "authors": [
+                    "Romain Gary"
+                ],
+                "publisher": "Les Editions Du Cenacle",
+                "publishedDate": "2019-01-14",
+                "description": "Venez découvrir le roman de Romain Gary grâce à une analyse littéraire de référence ! Écrite par un spécialiste universitaire, cette fiche de lecture est recommandée par de nombreux enseignants. Cet ouvrage contient la biographie de l'écrivain, le résumé détaillé, le mouvement littéraire, le contexte de publication de l'oeuvre et l'analyse complète. Retrouvez tous nos titres sur: www.fichedelecture.fr.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2759300099"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782759300099"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 44,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kQA9vQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kQA9vQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.fr/books?id=kQA9vQEACAAJ&dq=La+Vie+Devant+Soi&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=kQA9vQEACAAJ&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/La_Vie_devant_soi_de_Romain_Gary_fiche_d.html?hl=&id=kQA9vQEACAAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kQA9vQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Venez découvrir le roman de Romain Gary grâce à une analyse littéraire de référence ! Écrite par un spécialiste universitaire, cette fiche de lecture est recommandée par de nombreux enseignants."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "lU0ONAEACAAJ",
+            "etag": "I5M1ydh23Mg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/lU0ONAEACAAJ",
+            "volumeInfo": {
+                "title": "La vie devant soi",
+                "authors": [
+                    "Romain Gary (pseud. van Romain Kassef)"
+                ],
+                "publishedDate": "2012",
+                "description": "Een Arabische weesjongen wordt opgevangen door een oudere prostituée. Uitgave met woordverklaringen in het Nederlands.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9001815030"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789001815035"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 191,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "nl",
+                "previewLink": "http://books.google.fr/books?id=lU0ONAEACAAJ&dq=La+Vie+Devant+Soi&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=lU0ONAEACAAJ&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/La_vie_devant_soi.html?hl=&id=lU0ONAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=lU0ONAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Een Arabische weesjongen wordt opgevangen door een oudere prostituée. Uitgave met woordverklaringen in het Nederlands."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "GnV7oAEACAAJ",
+            "etag": "C1wd429oFlk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/GnV7oAEACAAJ",
+            "volumeInfo": {
+                "title": "Étude sur \"La vie devant soi\", Émile Ajar",
+                "authors": [
+                    "Miguel Degoulet"
+                ],
+                "publishedDate": "2014-04-08",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2729885749"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782729885748"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 108,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.fr/books?id=GnV7oAEACAAJ&dq=La+Vie+Devant+Soi&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.fr/books?id=GnV7oAEACAAJ&dq=La+Vie+Devant+Soi&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/%C3%89tude_sur_La_vie_devant_soi_%C3%89mile_Ajar.html?hl=&id=GnV7oAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "FR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "FR",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=GnV7oAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        }
+    ]
+}

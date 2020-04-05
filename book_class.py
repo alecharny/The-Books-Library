@@ -4,3 +4,4 @@ class book():
         self.name = ""
         self.author = ""
         self.genre = ""
+        self.description = ""
