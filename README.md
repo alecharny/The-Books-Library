@@ -6,7 +6,7 @@ The only parameter needed is the name of the book.
 To use the script, type:
 
 ```
-$ python book_libray.py "Name of a book"
+$ python book_library.py "Name of a book"
 ```
 
 Example:
