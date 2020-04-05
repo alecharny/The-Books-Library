@@ -4,6 +4,8 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+# Helper functions
+
 def create_book_instance():
     return book()
 
@@ -30,18 +32,21 @@ def link_to_class_book(book_instance, name, author, genre, description):
     book_instance.description = description
 
 def add_to_html(name, author, genre, description):
+    global indice 
+    global list_descriptors
+    indice = 0
+    list_descriptors = ['Book Summary: ', 'Genre: ', 'Author(s): ', 'Name: ']
     with open('book_library.html') as html_file_to_read:
         soup = BeautifulSoup(html_file_to_read, 'html.parser')
-        new_book_description = soup.new_tag('div')
-        new_book_description.string = 'Description: %s' % description
-        soup.body.insert(0, new_book_description) 
-        new_book_div = soup.new_tag('div')
-        new_book_div.string = 'Book: %s\n | Author: %s\n | Genre: %s' % (name, author, genre)
-        soup.body.insert(0, new_book_div) 
-        new_break = soup.new_tag('br')
-        soup.body.insert(0, new_break)      
+        add_nice_html_section(soup)
+        for element in [description, genre, author, name]:
+            add_html_element(soup, element)
+            add_html_break_line(soup)
+            indice += 1
     with open('book_library.html', 'w') as html_file_to_write:
         html_file_to_write.write(str(soup))
+
+# Printing + HTML sections
 
 def nice_printing():
     print('---------------------')
@@ -51,6 +56,22 @@ def nice_printing():
     print('Genre: ', book_instance.genre)
     print('Book Summary: ', book_instance.description)
     print('---------------------')
+
+def add_nice_html_section(soup):
+    new_book_div = soup.new_tag('p')
+    new_book_div.string = '-------------------'
+    soup.body.insert(0, new_book_div) 
+
+def add_html_break_line(soup):
+    new_break = soup.new_tag('br')
+    soup.body.insert(0, new_break)
+
+def add_html_element(soup, element):
+    new_book_div = soup.new_tag('div')
+    new_book_div.string = list_descriptors[indice] + '%s' % element
+    soup.body.insert(0, new_book_div) 
+
+# Main
 
 if __name__ == '__main__':
     book_instance = create_book_instance()

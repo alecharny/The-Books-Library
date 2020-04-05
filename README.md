@@ -12,5 +12,5 @@ $ python book_libray.py "Name of a book"
 Example:
 
 ```
-$ python book_libray.py "Les Misérables"
+$ python book_library.py "Les Misérables"
 ```
