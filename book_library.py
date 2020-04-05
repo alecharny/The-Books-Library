@@ -10,8 +10,8 @@ def create_book_instance():
 def scrap_book(book_to_add):
     url = f'https://www.googleapis.com/books/v1/volumes?q={book_to_add}'
     response = requests.get(url).json()
-    with open('json_output.json', 'w') as json_file:
-        json.dump(response, json_file, indent = 4, ensure_ascii = False)
+    # with open('json_output.json', 'w') as json_file:
+    #     json.dump(response, json_file, indent = 4, ensure_ascii = False)
     resource = response['items'][0]['volumeInfo']
     try: 
         author = ', '.join(resource['authors'])
