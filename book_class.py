@@ -5,3 +5,4 @@ class book():
         self.author = ""
         self.genre = ""
         self.description = ""
+        self.image = ""

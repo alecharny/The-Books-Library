@@ -3,50 +3,77 @@ from book_class import *
 import requests
 import json
 from bs4 import BeautifulSoup
+from collections import OrderedDict
 
-# Helper functions
+# Class Helper functions
 
 def create_book_instance():
     return book()
 
+def link_to_class_book(book_instance, name, author, genre, description, image):
+    book_instance.name = name
+    book_instance.author = author
+    book_instance.genre = genre
+    book_instance.description = description
+    book_instance.image = image
+
+# Main API and HTML Functions
+
 def scrap_book(book_to_add):
+    name = book_to_add
     url = f'https://www.googleapis.com/books/v1/volumes?q={book_to_add}'
     response = requests.get(url).json()
+    # Add the two following lines to print the JSON output of the API call in a separate JSON file:
     # with open('json_output.json', 'w') as json_file:
     #     json.dump(response, json_file, indent = 4, ensure_ascii = False)
     resource = response['items'][0]['volumeInfo']
     try: 
         author = ', '.join(resource['authors'])
-        genre = ', '.join(resource['categories'])
-        book_summary = resource['description']
     except:
         author = 'Not Found'
+    try:
+        genre = ', '.join(resource['categories'])
+    except:
         genre = 'Not Found'
-        book_summary = 'Not Found'
-    return author, genre, book_summary
+    try:
+        description = resource['description']
+    except:
+        description = 'Not Found'
+    try:
+        image = resource['imageLinks']['thumbnail']
+    except:
+        pass
+    return name, author, genre, description, image
 
-def link_to_class_book(book_instance, name, author, genre, description):
-    book_instance.name = name
-    book_instance.author = author
-    book_instance.genre = genre
-    book_instance.description = description
+def generate_list_descriptors(book_instance):
+    book_attributes_raw = OrderedDict(book_instance.__dict__)
+    book_attributes = OrderedDict()
+    for key in book_attributes_raw:
+        new_key = key.capitalize() +': '
+        book_attributes[new_key] = book_attributes_raw[key]
+    list_descriptors = OrderedDict()
+    for attribute in reversed(book_attributes):
+        list_descriptors[attribute] = book_attributes[attribute]
+    return list_descriptors
 
-def add_to_html(name, author, genre, description):
-    global indice 
-    global list_descriptors
-    indice = 0
-    list_descriptors = ['Book Summary: ', 'Genre: ', 'Author(s): ', 'Name: ']
+def add_to_html(book_instance):
+    list_descriptors = generate_list_descriptors(book_instance)
     with open('book_library.html') as html_file_to_read:
         soup = BeautifulSoup(html_file_to_read, 'html.parser')
-        add_nice_html_section(soup)
-        for element in [description, genre, author, name]:
-            add_html_element(soup, element)
-            add_html_break_line(soup)
-            indice += 1
+        add_html_section(soup)
+        for key, value in list_descriptors.items():
+            print(key, value)
+            if key == 'Image: ':
+                add_html_image(soup, value)
+                add_html_break_line(soup)
+            else: 
+                line = key + value
+                add_html_element(soup, line)
+                add_html_break_line(soup)
     with open('book_library.html', 'w') as html_file_to_write:
         html_file_to_write.write(str(soup))
 
-# Printing + HTML sections
+# Printing + HTML sections Function
 
 def nice_printing():
     print('---------------------')
@@ -57,7 +84,7 @@ def nice_printing():
     print('Book Summary: ', book_instance.description)
     print('---------------------')
 
-def add_nice_html_section(soup):
+def add_html_section(soup):
     new_book_div = soup.new_tag('p')
     new_book_div.string = '-------------------'
     soup.body.insert(0, new_book_div) 
@@ -68,13 +95,17 @@ def add_html_break_line(soup):
 
 def add_html_element(soup, element):
     new_book_div = soup.new_tag('div')
-    new_book_div.string = list_descriptors[indice] + '%s' % element
+    new_book_div.string = element
     soup.body.insert(0, new_book_div) 
+
+def add_html_image(soup, image_url):
+    new_book_image = soup.new_tag('img', src = image_url)
+    soup.body.insert(0, new_book_image)
 
 # Main
 
 if __name__ == '__main__':
     book_instance = create_book_instance()
-    link_to_class_book(book_instance, argv[1], *scrap_book(argv[1]))
+    link_to_class_book(book_instance, *scrap_book(argv[1]))
     nice_printing()
-    add_to_html(book_instance.name, book_instance.author, book_instance.genre, book_instance.description)
+    add_to_html(book_instance)
