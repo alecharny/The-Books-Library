@@ -60,9 +60,9 @@ def add_to_html(book_instance):
     list_descriptors = generate_list_descriptors(book_instance)
     with open('book_library.html') as html_file_to_read:
         soup = BeautifulSoup(html_file_to_read, 'html.parser')
+        update_html_counter(soup)
         add_html_section(soup)
         for key, value in list_descriptors.items():
-            print(key, value)
             if key == 'Image: ':
                 add_html_image(soup, value)
                 add_html_break_line(soup)
@@ -79,9 +79,9 @@ def nice_printing():
     print('---------------------')
     print('Adding a new book:')
     print('Name: ', book_instance.name)
-    print('Author: ', book_instance.author)
+    print('Author(s): ', book_instance.author)
     print('Genre: ', book_instance.genre)
-    print('Book Summary: ', book_instance.description)
+    print('Description: ', book_instance.description)
     print('---------------------')
 
 def add_html_section(soup):
@@ -101,6 +101,13 @@ def add_html_element(soup, element):
 def add_html_image(soup, image_url):
     new_book_image = soup.new_tag('img', src = image_url)
     soup.body.insert(0, new_book_image)
+
+def update_html_counter(soup):
+    counter = soup.find(id = 'number_of_books_read')
+    new_counter = int(counter.text) + 1
+    new_book_counter = soup.new_tag('span', id="number_of_books_read")
+    new_book_counter.string = str(new_counter)
+    soup.h3.span.replace_with(new_book_counter)
 
 # Main
 
